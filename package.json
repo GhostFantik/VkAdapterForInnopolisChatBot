@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GhostFantik/VkAdapterForInnopolisChatBot/issues"
   },
-  "homepage": "https://github.com/GhostFantik/VkAdapterForInnopolisChatBot#readme"
+  "homepage": "https://github.com/GhostFantik/VkAdapterForInnopolisChatBot#readme",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
