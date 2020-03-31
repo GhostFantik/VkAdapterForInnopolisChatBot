@@ -1,1 +1,10 @@
-...
+Description config.json
+
+{
+    "Vk" : {
+        "access_token" : "",
+        "version" : "",
+        "group_id" : "",
+        "LPAwait" : ""
+    }
+}
