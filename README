@@ -8,5 +8,6 @@ Description config.json
         "version" : "",
         "group_id" : "",
         "LPAwait" : ""
-    }
+    },
+    "server" : ""
 }
