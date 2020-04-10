@@ -17,4 +17,28 @@ exports.sendMessage = function(data) {
             text: data.message.content,
         })
     }
+    else if (data.type == 'keyboard') {
+        btns = []
+        data.message.keyboard_buttons.forEach(arr => {
+            buffer = []
+            arr.forEach(btn => {
+                buffer.push({
+                    action: {
+                        type: 'text',
+                        label: btn.name
+                    },
+                    color: btn.color
+                })
+            });
+            btns.push(buffer)
+        });
+        methodsManager.sendMessage({
+            id: data.user_id,
+            text: data.message.content,
+        },{
+            one_time: false,
+            inline: data.message.inline,
+            buttons: btns
+        })
+    }
 }
