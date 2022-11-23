@@ -18,6 +18,6 @@
   "homepage": "https://github.com/GhostFantik/VkAdapterForInnopolisChatBot#readme",
   "dependencies": {
     "axios": "^0.19.2",
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   }
 }
